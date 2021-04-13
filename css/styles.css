@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Commissioner', sans-serif;
+    font-size: 16px;
+    background-color:#F9F9F9;
+    color: hsl(0, 0%, 48%);
+}
+header{
+ background-image: url(../images/image-hero-desktop.jpg);
+ height: 50vh;
+ background-position: center;
+ background-size: cover;
+}
+nav{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav .logo{
+    margin-top: 20px;
+}
+nav ul {
+    display: block;
+    list-style: none;
+    margin-top: 20px;
+}
+nav ul li{
+    display:  inline-block;
+    padding: 5px;
+    margin-left: 10px;
+
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+main{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.about{
+    background-color: #fff;
+    width: 650px;
+    margin: -70px 0 0 0;
+    border-radius: 5px;
+    box-shadow:  3px 5px 10px rgba(0,0,0 0.5);
+    position: relative;
+}
+#about{
+    padding: 30px;
+  
+}
+#about .image{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    top: -25px;
+    left: 46%;
+}
+.about-info{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.about-info h1 {
+    color: hsl(0, 0%, 0%);
+    font-size: 24px;
+    font-weight: 700;
+    margin:10px 0;
+}
+.about-info p{
+    color: hsl(0, 0%, 48%);
+}
+.moreinfo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.input .btn{
+    background-color:  hsl(176, 50%, 47%);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 14px 30px;
+    border-radius: 30px;
+    border: none;
+}
+.input .btn:focus{
+    outline: none;
+}
+.bookmark-input  a{
+    background-color:#EFF3F1;
+    height: 40px;
+    display: flex;
+    border-radius:  20px;
+    text-decoration: none;
+   
+}
+
+ .bookmark-input img{
+    height: 40px;
+
+}
+.bookmark-input p{
+    margin-left: 2px;
+    padding: 10px 30px;
+    border-bottom-right-radius: 30px;
+    color: hsl(0, 0%, 48%);
+    font-weight: 700;
+}
+.range{
+    background-color: #fff;
+    width: 650px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.range-values{
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+}
+.data{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.data p {
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    border-right: 1px solid hsl(0, 0%, 80%);
+    padding-right: 30px;
+}
+.data p:last-child{
+    border-right: none;
+    /* padding-right: 50px; */
+}
+.data p .data-taken {
+    color: hsl(0, 0%, 0%);
+    font-size: 28px;
+    font-weight: 700;
+}
+progress{
+    -webkit-appearance: none;
+    height: 10px;
+    width: 520px;
+    margin-top: 20px;
+    margin-left: 38px;
+    
+}
+progress::-webkit-progress-value{
+    background-color: hsl(176, 50%, 47%);
+    border-radius: 10px;
+}
+progress::-webkit-progress-bar{
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+.introduction{
+    background-color: #fff;
+    width: 650px;
+    margin-top: 20px;
+}
+.introduction-info{
+    padding: 30px;
+}
+.introduction-info h2{
+    font-size: 20px;
+    color: hsl(0, 0%, 0%);
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.introduction-info p:last-child{
+    margin-top: 30px;
+}
+article{
+    padding: 30px;
+}
+.product{
+    padding: 20px;
+    border: 1px solid hsl(0, 0%, 87%);
+    border-radius: 5px;
+}
+.product-title{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.product-title h3{
+    font-size: 18px;
+    color: hsl(0, 0%, 0%);
+    font-weight: 700;
+
+}
+.product-title p{
+    color: hsl(176, 50%, 47%);
+    cursor: pointer;
+    word-spacing: 2px;
+}
+.product-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.product-footer p .product-left{
+    color:hsl(0, 0%, 0%);
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.product-footer p .product-info{
+    display: inline-block;
+ 
+}
+.product-footer button{
+    background-color: hsl(176, 50%, 47%);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500;
+
+}
+.product-footer button:focus{
+    outline: none;
+}
