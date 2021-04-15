@@ -13,9 +13,10 @@ body{
 }
 header{
  background-image: url(../images/image-hero-desktop.jpg);
- height: 50vh;
+ height: 60vh;
  background-position: center;
  background-size: cover;
+ position: relative;
 }
 nav{
     width: 1000px;
@@ -57,7 +58,7 @@ main{
     width: 650px;
     margin: -70px 0 0 0;
     border-radius: 5px;
-    box-shadow:  3px 5px 10px rgba(0,0,0 0.5);
+    /* box-shadow:  4px 3px 5px rgba(0,0,0, 0.3); */
     position: relative;
 }
 #about{
@@ -100,9 +101,13 @@ main{
     padding: 14px 30px;
     border-radius: 30px;
     border: none;
+    cursor: pointer;
 }
 .input .btn:focus{
     outline: none;
+}
+.input .btn:hover{
+    background-color: hsl(176, 72%, 28%);
 }
 .bookmark-input  a{
     background-color:#EFF3F1;
@@ -242,3 +247,81 @@ article{
 .product-footer button:focus{
     outline: none;
 }
+.modal-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300vh;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal{
+    background-color: #fff;
+    width: 650px;
+    margin-top: -700px;
+    border-radius: 5px;
+  
+
+}
+.modal .modal-items{
+    padding: 30px;
+}
+.modal-items h2{
+    color: hsl(0, 0%, 0%);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.modal-items .back-this-project{
+    margin-bottom: 20px;
+}
+.modal-items article {
+    border: 2px solid hsl(0, 0%, 90%);
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+article  .product-heading label{
+    display: flex;
+    
+}
+.product-heading label .product-items{
+    margin-left: 10px;
+    margin-top: -6px;
+}
+.product-heading label .product-items h3{
+    color: hsl(0, 0%, 0%);
+    font-size: 18px;
+}
+
+.product-heading label .product-items-title {
+    display: flex;
+    justify-content: space-between;
+}
+.product-heading label .product-items-title .product-item-detail{
+  color: hsl(0, 0%, 0%);
+  font-size: 18px;
+}
+.product-heading label .product-items-title .pledge{
+    color: hsl(176, 50%, 47%);
+    font-weight: 400;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.product-heading label .product-items-title  .items-left {
+    margin-top: -2px;
+}
+.product-heading label .product-items-title  .items-left .valueOf-itemsLeft{
+    color: hsl(0, 0%, 0%);
+    font-weight: 700;
+    margin-right: 5px;
+}
+.product-heading label .product-items-title  .items-left:last-child{
+    font-weight: 400;
+
+}
+.product-heading label .product-items p{
+     margin-top: 10px;
+}
+
