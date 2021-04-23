@@ -25,12 +25,14 @@ header{
     cursor: pointer;
     display: none;
     margin-right: 20px;
+    
 }
-.bar{
+.burger .bar{
     height: 3px;
     width: 25px;
     background-color: #fff;
     margin: 5px auto;
+    transition: all 0.5s ease;
     
 }
 nav{
@@ -527,7 +529,7 @@ article  .product-heading label{
     }
     #about .image{
         left: 140px;
-        
+
     }
 }
 
