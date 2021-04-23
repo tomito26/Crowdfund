@@ -380,7 +380,7 @@ article  .product-heading label{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 340px;
+        width: 330px;
         margin: 30px 20px;
         background-color: #fff;
         border-radius: 5px;
@@ -497,7 +497,7 @@ article  .product-heading label{
     }
     .modal{
         width: 330px;
-        margin-top: -800px;
+        margin-top: -600px;
         margin-left: 20px;
         margin-right: 20px;
 
