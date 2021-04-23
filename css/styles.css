@@ -63,7 +63,7 @@ nav ul li a {
 }
 main{
     width: 1000px;
-    margin: 0 auto 200px;
+    margin: 0 auto 100px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -288,7 +288,7 @@ article{
 .modal{
     background-color: #fff;
     width: 650px;
-    margin-top: -700px;
+    margin-top: -800px;
     border-radius: 5px;
   
 
@@ -316,6 +316,7 @@ article{
     border: 2px solid hsl(0, 0%, 90%);
     margin-bottom: 20px;
     border-radius: 5px;
+    position: relative;
 }
 article  .product-heading label{
     display: flex;
@@ -362,6 +363,9 @@ article  .product-heading label{
 }
 
 @media only screen and (max-width:375px) {
+    body{
+        overflow-x: hidden;
+    }
     header{
         height: 50vh;
         background-position: center;
@@ -490,6 +494,36 @@ article  .product-heading label{
         padding: 16px 20px;
         font-weight: 500;
         font-size: 16px;
+    }
+    .modal{
+        width: 330px;
+        margin-top: -800px;
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+    .modal .modal-items {
+        padding: 20px;
+    }
+    .product-heading label .product-items .product-items-title h3{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: -5px;
+    }
+   
+    .items-left{
+        position: absolute;
+        bottom: 0px;
+        top: 90%;
+     
+    }
+    .product-heading label .product-items p{
+        margin-bottom: 20px;
+       
+    }
+    .product-heading label .product-items-title .pledge{
+        margin-left: -2px;
     }
 }
 
