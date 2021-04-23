@@ -358,6 +358,11 @@ article  .product-heading label{
 }
 
 @media only screen and (max-width:375px) {
+    header{
+        height: 50vh;
+        background-position: center;
+        background-size: cover;
+    }
     nav{
         width: 100%;
         display: block;
@@ -400,6 +405,64 @@ article  .product-heading label{
     }
     .burger{
         display: block;
+    }
+    main{
+        width: 100%;
+    }
+    .about{
+        width: 330px;
+    }
+    #about{
+        padding: 10px;
+        margin: 10px;
+    }
+    .about-info p{
+        margin-top: 20px;
+        line-height: 30px;
+        /* text-align: start ; */
+    }
+    .input .btn{
+        padding: 20px 35px;
+    }
+    .bookmark-input{
+        margin-left: 10px;
+    }
+    .bookmark-input img{
+        height: 50px;
+    }
+    .bookmark-input p{
+        display: none;
+    }
+    .moreinfo{
+        justify-content: center;
+    }
+    .range{
+        width: 330px;
+    }
+    .range-values{
+        padding: 20px;
+    }
+    .data{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .data p{
+        border-right: none;
+        border-bottom: 1px solid hsl(0, 0%, 90%);
+        padding-right: 0;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    .data p:last-child{
+        border-bottom: none;
+    }
+    .data p .data-taken{
+        margin-bottom: 10px;
+    }
+    progress{
+        width: 290px;
+        margin-left: 0;
     }
 }
 
